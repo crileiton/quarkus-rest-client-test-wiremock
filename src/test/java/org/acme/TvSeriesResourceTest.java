@@ -38,7 +38,7 @@ class TvSeriesResourceTest {
                 .get("/tvseries")
                 .then()
                 .body("id", equalTo(1))
-                .body("name", equalTo("myTvSerie2"))
+                .body("name", equalTo("myTvSerie"))
                 .body("url", equalTo("https://www.tvmaze.com/shows/2993/my-tv-series"))
                 .body("language", equalTo("English"))
                 .body("officialSite", equalTo("https://www.netflix.com/title/80057281"))

@@ -27,7 +27,7 @@ public class WiremockTvProxy implements QuarkusTestResourceLifecycleManager {
                                         .withBody(
                                                 "{\n"
                                                         + "\"id\": 1,\n"
-                                                        + "\"name\": \"myTvSeriee2\",\n"
+                                                        + "\"name\": \"myTvSerie\",\n"
                                                         + "\"url\": \"https://www.tvmaze.com/shows/2993/my-tv-series\",\n"
                                                         + "\"language\": \"English\",\n"
                                                         + "\"officialSite\": \"https://www.netflix.com/title/80057281\"\n"
