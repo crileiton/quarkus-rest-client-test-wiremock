@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/singlesearch")
 @Produces(MediaType.APPLICATION_JSON)
-@RegisterRestClient
+@RegisterRestClient(configKey = "series-api")
 public interface TvSeriesProxy {
 
     @GET

@@ -38,7 +38,7 @@ public class WiremockTvProxy implements QuarkusTestResourceLifecycleManager {
                         .atPriority(10)
                         .willReturn(aResponse().proxiedFrom("http://api.tvmaze.com")));
 
-        return Collections.singletonMap("org.acme.TvSeriesProxy/mp-rest/url", wireMockServer.baseUrl());
+        return Collections.singletonMap("quarkus.rest-client.series-api.url", wireMockServer.baseUrl());
     }
 
     @Override
